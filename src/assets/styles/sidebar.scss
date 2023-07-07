@@ -1,5 +1,4 @@
-
-.rotate-180{
+.rotate-180 {
     transform: rotate(180deg);
 }
 .v-navigation-drawer {
@@ -9,7 +8,7 @@
     .logo {
         height: 3.5rem;
     }
-    .closer{
+    .closer {
         background-color: rgb(40 47 61/1);
         border-radius: 50%;
         width: 1.85rem;
@@ -22,7 +21,7 @@
         color: white;
         cursor: pointer;
     }
-    .opener{
+    .opener {
         background-color: rgb(40 47 61/1);
         border-radius: 50%;
         width: 1.85rem;
@@ -68,20 +67,20 @@
         cursor: pointer;
         p {
             margin-left: 0.6rem;
-            &:hover{
+            &:hover {
                 color: rgb(107, 27, 205);
             }
         }
     }
 }
 
-.closedTheme{
-    .logo{
+.closedTheme {
+    .logo {
         height: 2.5rem;
     }
-    .v-list-item{
+    .v-list-item {
         justify-content: center;
-        svg{
+        svg {
             height: 22px;
             width: 22px;
         }
@@ -104,12 +103,15 @@
                 width: 26px;
             }
         }
-        .dropdown{
+        .dropdown {
             display: none;
         }
     }
 }
-.events, .tokens, .wallets, .twitter{
+.events,
+.tokens,
+.wallets,
+.twitter {
     width: 64%;
     display: flex;
     flex-direction: column;
@@ -118,17 +120,113 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    p{
+    p {
         color: rgb(209 213 219/1);
         font-size: 15px;
-        &:hover{
+        &:hover {
             color: rgb(107, 27, 205);
         }
     }
-}   
-.active-tab{
+}
+.active-tab {
     background-color: rgb(31 41 55/1);
     border-radius: 0.5rem;
     height: 1rem;
     padding-bottom: 2.3rem;
+}
+
+@media (max-width: 500px) {
+    .v-main {
+        padding: 0;
+        margin: 0 auto;
+        border: none;
+    }
+    .v-navigation-drawer {
+        display: none;
+    }
+    .home__header {
+        flex-direction: column;
+        gap: 3.5rem;
+        &__left{
+            padding-left: 1rem;
+        }
+        img{
+            display: none;
+        }
+        h1{
+            font-size: 2.25rem;
+            line-height: 2.7rem;
+        }
+        p{
+            line-height: 2rem;
+            font-size: 1.125rem;
+        }
+    }
+    .home__second {
+        gap: 1rem;
+        h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+        p{
+            font-size: 1.125rem;
+            width: 95%;
+            line-height: 2rem;
+        }
+    }
+    .right {
+        padding-left: 3%;
+        margin-top: 5rem;
+        flex-direction: column;
+        gap: 3.5rem;
+        .text {
+            width: 95%;
+            h1 {
+                line-height: 46px;
+                font-size: 2rem;
+            }
+            p {
+                line-height: 2rem;
+                font-size: 1.125rem;
+            }
+        }
+        img {
+            margin-left: 6rem;
+        }
+    }
+    .left {
+        margin-top: 5rem;
+        gap: 3.5rem;
+        flex-direction: column-reverse;
+        .text {
+            width: 95%;
+            margin-left: 1.5rem;
+            h1 {
+                line-height: 46px;
+                font-size: 2rem;
+            }
+            p {
+                line-height: 2rem;
+                font-size: 1.125rem;
+            }
+        }
+        img {
+            margin-right: 12rem;
+        }
+    }
+    .home__pricing{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        .paid{
+            margin-top: 3rem;
+            flex-direction: column;
+            gap: 3rem;
+        }
+        .free{
+            width: 100%;
+        }
+    }
+    .home__profits{
+
+    }
 }
