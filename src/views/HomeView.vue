@@ -177,51 +177,8 @@
   <p>Для начала вам необходимо зарегистрироваться на нашей платформе и активно использовать наши продукты.</p>
 </div>
 
-<!-- HOME EVENTS -->
-<div class="home__events left">
-  <div class="home__feed__left">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
-  </div>
-  <div class="text">
-    <span>The Best Crypto Events</span>
-    <h1>Follow the best crypto events with detailed guides</h1>
-    <p>We review and post about the best crypto events available at the moment. Never miss the next Big Token Airdrop again, always stay up to date with the most potential upcoming NFT drops.</p>
-   <button>Check latest events <span aria-hidden="true" class="ml-2">→</span></button>
-  </div>
-</div>
-
-<!-- HOME NEWS -->
-<div class="home__news right">
-  <div class="text">
-    <span>Event News Feed</span>
-    <h1>Forget about browsing endless feeds in Twitter and Discord</h1>
-    <p>We keep track of all of the important project updates and deliver them in your Telegram or Alphador feed in a short laconic format.</p>
-  </div>
-  <div class="home__list__right">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
-  </div>
-</div>
-
-<!-- HOME TWITTER -->
-<div class="home__twitter home__second">
-  <h1>Twitter Tools</h1>
-  <p>Our Twitter tools can help you to be the first who finds new projects and pump news.</p>
-</div>
-
-<!-- HOME FOLLOWERS -->
-<div class="home__followers left">
-  <div class="home__feed__left">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
-  </div>
-  <div class="text">
-    <span>Followers tracker</span>
-    <h1>Be notified when top influencers follow new projects</h1>
-    <p>Twitter Followers Tracker was created in order to detect all new followings of the top influencers. This tool is a must have in order to find new projects early and often benefit from that.</p>
-  </div>
-</div>
-
 <!-- HOME PRICING -->
-<div class="home__pricing">
+<!-- <div class="home__pricing">
   <div class="home__second">
     <h1>Pricing</h1>
     <p>Discover our pricing plans and choose the subscription which fits your needs.</p>
@@ -232,7 +189,7 @@
       <BasicAlpha />
       <Pro />
     </div>
-</div>
+</div> -->
 <div class="home__profits">
   <h1>Присоединяйтесь к <span>Smart Tech Hub</span> <br> и откройте для себя мир.</h1>
   <p>Попробуйте наши IT-продукты и увидите, как они могут преобразить ваш бизнес. Зарегистрируйтесь на платформе уже сегодня и начните свое путешествие в мир инноваций и технологий!</p>
