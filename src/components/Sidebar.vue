@@ -11,7 +11,7 @@
   <svg v-else @click="rail = false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="opener w-5 text-[#9FA3A9]" style="transform: rotate(180deg);"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
   <v-list density="compact" nav>
     <v-list-item>
-        <img class="logo" src="http://dao.dlnn.works/landing/images/logo-dark.png" alt="">
+        <v-img class="logo" src="../assets/images/logo.svg" alt=""></v-img>
     </v-list-item>
     <v-list-item :class="{'active-tab': events}" @click="openEvents">
         <div>

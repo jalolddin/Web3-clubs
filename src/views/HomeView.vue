@@ -6,85 +6,129 @@
 <v-main>
   <div class="home__header">
     <div class="home__header__left">
-      <h1>Smart Money Made Simple</h1>
-      <p>Alpha community with a set of powerful analytical tools to find out and keep track of the best opportunities for making money in crypto space.</p>
+      <h1>Мы не одни в своем убеждении, что токенизация активов - это будущее. </h1>
+      <p>Добро пожаловать в Smart Tech Hub - платформу, где инновации и прогрессивные технологии встречаются с реальным бизнесом и криптовалютами. Мы предлагаем уникальные решения, которые помогают бизнесу и инвесторам использовать все преимущества цифровой экономики, сохраняя при этом привычные бизнес-процессы.</p>
       <div class="home__header__left__buttons">
-        <button>Start Free Trial</button>
-        <button>Login <span aria-hidden="true">→</span></button>
+        <button>Присоединиться</button>
+        <button>Войти <span aria-hidden="true">→</span></button>
       </div>
     </div>
     <div class="home__header__right">
-      <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
+      <v-img src="../assets/images/first.jpeg"></v-img>
     </div>
   </div>
   <!-- HEADER END -->
 
+  <!-- QUOTES -->
+  <div class="quotes__container">
+      <div class="home__quotes">
+        <v-img class="quote" src="../assets/images/quotes.svg"></v-img>
+        <p class="quote__text">Я думаю, что токенизация активов - это очень интересная идея. У нее есть потенциал сделать активы более ликвидными и доступными и увеличить прозрачность.</p>
+        <div class="line"></div>
+        <div class="author">
+        <v-avatar size="65px">
+            <v-img alt="Avatar" src="https://reosh.ru/wp-content/uploads/2022/06/05-2-1024x611.jpg"></v-img>
+        </v-avatar>
+          <div>
+            <h1>Джейми Даймон</h1>
+            <p>генеральный директор JPMorgan Chase</p>
+          </div>
+        </div>
+      </div>
+      <div class="home__quotes">
+          <v-img class="quote" src="../assets/images/quotes.svg"></v-img>
+          <p class="quote__text">Я думаю, что токенизация активов - это очень деструктивная технология. У нее есть потенциал изменить то, как мы думаем о деньгах и финансах.</p>
+          <div class="line"></div>
+        <div class="author">
+        <v-avatar size="65px">
+            <v-img alt="Avatar" src="https://www.spot.uz/media/img/2021/02/rP4Xw716143484659422_l.jpg"></v-img>
+        </v-avatar>
+          <div>
+            <h1>Илон Маск</h1>
+            <p>генеральный директор Tesla и SpaceX и Twitter</p>
+          </div>
+        </div>
+      </div>
+      <div class="home__quotes">
+        <v-img class="quote" src="../assets/images/quotes.svg"></v-img>
+        <p class="quote__text">Я думаю, что токенизация активов - это очень интересная идея. У нее есть потенциал сделать активы более ликвидными и доступными и увеличить прозрачность.</p>
+        <div class="line"></div>
+        <div class="author">
+        <v-avatar size="70px">
+            <v-img alt="Avatar" src="https://cdn.fishki.net/upload/post/2019/07/08/3026350/d7cdeb48965197dbb076291eb2c504c8.jpg"></v-img>
+        </v-avatar>
+          <div>
+            <h1>Ллойд Бланкфейн</h1>
+            <p>бывший директор Goldman Sachs</p>
+          </div>
+        </div>
+      </div>
+</div>
   <div class="home__second">
-      <h1>Wallet Tracking Tools</h1>
-      <p>Use our tools to follow blockchain addresses, track all of their activity and detect smart wallets.</p>
+      <h1>Возможности Smart Tech Hub</h1>
+      <p>Мы представляем себе будущее, в котором люди могут инвестировать в стартапы и другие компании через криптовалюту, получая токены, которые дают им частичное владение этими компаниями.</p>
   </div>
  
   <!-- ANYLIZE WALLET -->
   <div class="home__anylize left">
       <div class="home__anylize__left">
-        <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwallet-analyzer.f5d08ae8.png&w=3840&q=75" alt="">
+          <v-img src="../assets/images/second.jpg"></v-img>
       </div>
       <div class="text">
-        <span>Wallet Analyzer</span>
-        <h1>Analyze Wallet PnL over time</h1>
-        <p>Easiest way to see how good the trader is - check his trade history. Put address in our Wallet Analyzer in order to see the PnL results of the wallet over time.</p>
+        <span>Токенизация</span>
+        <h1>Токенизация активов</h1>
+        <p>Мы помогаем компаниям токенизировать свои активы, превращая традиционные активы в цифровые токены, которые могут быть легко и быстро проданы, куплены или обменяны.</p>
       </div>
   </div>
 
   <!-- HOME LIST -->
   <div class="home__list right">
     <div class="text">
-      <span>Wallet Lists</span>
-      <h1>Organize the wallets you  <br> follow</h1>
-      <p>Create wallet lists, add addresses and keep track of all their transactions. Share your lists with anyone and find ready lists created by the other members of Alphador community.</p>
+      <span>Интеграция</span>
+      <h1>Интеграция криптовалют</h1>
+      <p>Мы предлагаем решения для интеграции криптовалютных транзакций в бизнес-процессы компаний. Это позволяет бизнесу принимать криптовалюты в качестве оплаты за товары и услуги, а также использовать криптовалюты для внутренних операций.</p>
     </div>
     <div class="home__list__right">
-      <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblockchain-wallet-lists.7fa5e957.png&w=3840&q=75" alt="">
+      <v-img src="../assets/images/third.jpg"></v-img>
     </div>
   </div>
 
   <!-- HOME FEED -->
   <div class="home__feed left">
     <div class="home__feed__left">
-      <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
+      <v-img src="../assets/images/fourth.jpg"></v-img>
     </div>
     <div class="text">
-      <span>Transactions Feed</span>
-      <h1>Track any wallet transactions on blockchain</h1>
-      <p>Keep track of all new transactions on the most popular chains initiated by the addresses you follow. Use filters in order to find transactions by exact wallet, list or related token. You can receive notifications directly in your Telegram.</p>
+      <span>Инвестиция</span>
+      <h1>Инвестиционные возможности</h1>
+      <p>Мы предоставляем инвесторам доступ к высокодоходным инвестиционным проектам в сфере криптовалют и блокчейна.</p>
     </div>
 </div>
 
 <!-- HOME DETECTOR -->
 <div class="home__detector right">
   <div class="text">
-    <span>Smart Wallets Detector</span>
-    <h1>Find wallets which buy before pump</h1>
-    <p>Wondering who bought a token before pump? Put token address in our Smart Wallets Detector, select dates and get a completely ready filtered list of addresses. Follow the best ones.</p>
+    <span>Обучение</span>
+    <h1>Обучение и консультации</h1>
+    <p>Мы предлагаем обучающие программы и консультации по вопросам использования криптовалют и блокчейна в бизнесе.</p>
   </div>
   <div class="home__list__right">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
+    <v-img src="../assets/images/fifth.jpg"></v-img>
   </div>
 </div>
 
 <!-- HOME ARBITAGE -->
 <div class="home__arbitage home__second">
-  <h1>Arbitrage Tools</h1>
-  <p>Use our scanners and token tools to find potentially profitable arbitrage opportunities.</p>
+  <h1>Smart Tech Hub</h1>
+  <p> это место, где криптовалюты становятся частью реального бизнеса.</p>
 </div>
 
 <!-- HOME DEX -->
 <div class="home__dex right">
   <div class="text">
-    <span>CEX DEX Arbitrage Scanner</span>
-    <h1>Find arbitrage opportunities between CEX and DEX</h1>
-    <p>Our CEX DEX Arbitrage scanner works 24/7 to find potential opportunities for an arbitrage.</p>
-    <div>Early Access only for PRO subscription</div>
+    <span>О нас</span>
+    <h1>Присоединяйтесь к <br> Smart Tech Hub</h1>
+    <p>Smart Tech Hub - это место, где криптовалюты становятся частью реального бизнеса. Мы помогаем компаниям и инвесторам открыть для себя новые возможности, которые предоставляет цифровая экономика.</p>
   </div>
   <div class="home__list__right">
     <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
@@ -97,19 +141,18 @@
     <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
   </div>
   <div class="text">
-    <span>CEX CEX Arbitrage Scanner</span>
-    <h1>Find arbitrage opportunities between CEX and CEX</h1>
-    <p>Our CEX CEX Arbitrage scanner works 24/7 to find potential opportunities for an arbitrage.</p>
-    <div>Early Access only for PRO subscription</div>
+    <span>Криптовалюта и блокчейн</span>
+    <h1>Мы верим в то, что криптовалюты и блокчейн могут принести реальную пользу бизнесу</h1>
+    <p>наша цель - помочь вам в этом. Вместе мы можем создать новую экономику, где цифровые и традиционные активы существуют бок о бок, дополняя и усиливая друг друга.</p>
   </div>
 </div>
 
 <!-- HOME CHAIN -->
 <div class="home__chain right">
   <div class="text">
-    <span>Cross Chain Arbitrage Simulator</span>
-    <h1>Quickly check whether an arbitrage opportunity exists</h1>
-    <p>Our arbitrage simulator allows you to check whether you can make a profit by buying one token on chain A and selling at higher price on chain B.</p>
+    <span>Экосистема</span>
+    <h1>Smart Tech Hub</h1>
+    <p>это не просто платформа, это целый экосистема, где технологии блокчейна и криптовалюты встречаются с реальным бизнесом. Мы предлагаем инструменты и решения, которые позволяют компаниям интегрировать криптовалютные транзакции в свою повседневную деятельность, открывая новые возможности для роста и развития.</p>
   </div>
   <div class="home__list__right">
     <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
@@ -130,8 +173,8 @@
 
 <!-- HOME ACTIVITIES -->
 <div class="home__activities home__second">
-  <h1>Crypto Activities</h1>
-  <p>Our team analyze a ton of events every day and selects only the most potential ones to participate.</p>
+  <h1>Все просто и прозрачно</h1>
+  <p>Для начала вам необходимо зарегистрироваться на нашей платформе и активно использовать наши продукты.</p>
 </div>
 
 <!-- HOME EVENTS -->
@@ -191,9 +234,9 @@
     </div>
 </div>
 <div class="home__profits">
-  <h1>Boost your crypto profits. <br>Start using <span>Alphador</span> today.</h1>
-  <p>Join Alpha community with a set of powerful analytical tools to find out and keep track of the best opportunities for making money in crypto space.</p>
-  <button>Start Free Trial</button>
+  <h1>Присоединяйтесь к <span>Smart Tech Hub</span> <br> и откройте для себя мир.</h1>
+  <p>Попробуйте наши IT-продукты и увидите, как они могут преобразить ваш бизнес. Зарегистрируйтесь на платформе уже сегодня и начните свое путешествие в мир инноваций и технологий!</p>
+  <button>Присоединиться</button>
 </div>
 
 <svg viewBox="0 0 1024 1024" class="absolute effect top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true"><circle cx="512" cy="512" r="512" fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fill-opacity="0.7"></circle><defs><radialGradient id="8d958450-c69f-4251-94bc-4e091a323369"><stop stop-color="#7775D6"></stop><stop offset="1" stop-color="#E935C1"></stop></radialGradient></defs></svg>
