@@ -158,19 +158,6 @@
     <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
   </div>
 </div>
-
-<!-- HOME ALERT -->
-<div class="home__alert left">
-  <div class="home__feed__left">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
-  </div>
-  <div class="text">
-    <span>Price Alerts</span>
-    <h1>Stay always up to date with token prices</h1>
-    <p>Keep track of any token on the most popular chains. Configure notifications on asset percent change or when crossing a price target. Receive notifications directly in your Telegram or browser.</p>
-  </div>
-</div>
-
 <!-- HOME ACTIVITIES -->
 <div class="home__activities home__second">
   <h1>Все просто и прозрачно</h1>
