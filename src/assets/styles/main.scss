@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 .card {
     width: 100%;
     height: 46rem;
@@ -112,8 +115,10 @@
     }
 }
 .left {
+    max-width: 1445px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
     margin-top: 7rem;
     justify-content: space-between;
     .text {
@@ -178,6 +183,8 @@
 .right {
     display: flex;
     align-items: center;
+    max-width: 1445px;
+    margin: 0 auto;
     margin-top: 7rem;
     justify-content: space-between;
     padding-left: 5%;
@@ -223,6 +230,7 @@
 }
 .home {
     &__header {
+        max-width: 1445px;
         display: flex;
         align-items: center;
         justify-content: space-between;

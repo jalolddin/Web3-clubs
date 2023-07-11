@@ -2,8 +2,13 @@
   <div class="home">
     <v-card>
       <v-layout>
-        <Sidebar />
+        <SidebarMobile class="mobile"/>
+        <Sidebar class="desktop" />
 <v-main>
+  <div class="home__navbar">
+    <v-img class="logo" src="../assets/images/logo.svg"></v-img>
+    <v-img class="menu" @click="toggleSidebar" src="../assets/images/burger-menu.svg"></v-img>
+  </div>
   <div class="home__header">
     <div class="home__header__left">
       <h1>Мы не одни в своем убеждении, что токенизация активов - это будущее. </h1>
@@ -131,14 +136,14 @@
     <p>Smart Tech Hub - это место, где криптовалюты становятся частью реального бизнеса. Мы помогаем компаниям и инвесторам открыть для себя новые возможности, которые предоставляет цифровая экономика.</p>
   </div>
   <div class="home__list__right">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
+    <v-img src="../assets/images/first.jpeg"></v-img>
   </div>
 </div>
 
 <!-- HOME CEX -->
 <div class="home__cex left">
   <div class="home__feed__left">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-banner.4964efc9.png&w=3840&q=75" alt="">
+    <v-img src="../assets/images/second.jpg"></v-img>
   </div>
   <div class="text">
     <span>Криптовалюта и блокчейн</span>
@@ -155,7 +160,7 @@
     <p>это не просто платформа, это целый экосистема, где технологии блокчейна и криптовалюты встречаются с реальным бизнесом. Мы предлагаем инструменты и решения, которые позволяют компаниям интегрировать криптовалютные транзакции в свою повседневную деятельность, открывая новые возможности для роста и развития.</p>
   </div>
   <div class="home__list__right">
-    <img src="https://alphador.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmart-wallet-detector-scanner.2a3cf8e4.png&w=3840&q=75" alt="">
+    <v-img src="../assets/images/third.jpg"></v-img>
   </div>
 </div>
 <!-- HOME ACTIVITIES -->
@@ -180,7 +185,7 @@
 <div class="home__profits">
   <h1>Присоединяйтесь к <span>Smart Tech Hub</span> <br> и откройте для себя мир.</h1>
   <p>Попробуйте наши IT-продукты и увидите, как они могут преобразить ваш бизнес. Зарегистрируйтесь на платформе уже сегодня и начните свое путешествие в мир инноваций и технологий!</p>
-  <button>Присоединиться</button>
+  <button><a href="https://smart4u.tech/">Присоединиться</a></button>
 </div>
 
 <svg viewBox="0 0 1024 1024" class="absolute effect top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true"><circle cx="512" cy="512" r="512" fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fill-opacity="0.7"></circle><defs><radialGradient id="8d958450-c69f-4251-94bc-4e091a323369"><stop stop-color="#7775D6"></stop><stop offset="1" stop-color="#E935C1"></stop></radialGradient></defs></svg>
@@ -199,7 +204,10 @@ import BasicAlpha from '../components/BasicAlpha.vue'
 import Pro from '../components/Pro.vue'
 import Footer from '../components/Footer.vue'
 import Sidebar from '../components/Sidebar.vue'
+import SidebarMobile from '../components/SidebarMobile.vue'
+import { mapMutations } from 'vuex'
 export default {
+  inject: ["updateBreakpoints"],
   name: 'HomeView',
   components: {
     Sidebar,
@@ -207,7 +215,14 @@ export default {
     Basic,
     BasicAlpha,
     Pro,
-    Footer
+    Footer,
+    SidebarMobile
+  },
+  methods:{
+    ...mapMutations(['setSidebarOpen']),
+    toggleSidebar(){
+      this.setSidebarOpen(true)
+    }
   }
 }
 </script>

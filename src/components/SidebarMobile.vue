@@ -1,14 +1,10 @@
 <template>
     <v-navigation-drawer
-    :absolute="true"
-    v-model="drawer"
-    :rail="rail"
-    permanent
-    :rail-width="80"
-    :class="{'closedTheme': rail}"
+    v-model="sidebarOpen"
+    temporary
   >
-  <svg v-if="!rail" @click="rail = true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="closer w-5 text-[#9FA3A9]" style="transform: none;"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-  <svg v-else @click="rail = false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="opener w-5 text-[#9FA3A9]" style="transform: rotate(180deg);"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+  <svg v-if="sidebarOpen" @click="toggleSidebar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="closer w-5 text-[#9FA3A9]" style="transform: none;"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+  <svg v-else @click="toggleSidebar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="opener w-5 text-[#9FA3A9]" style="transform: rotate(180deg);"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
   <v-list density="compact" nav>
     <v-list-item>
         <v-img class="logo" src="../assets/images/logo.svg" alt=""></v-img>
@@ -99,6 +95,7 @@
 </v-navigation-drawer>
 </template>
 <script>
+import { mapGetters, mapMutations } from 'vuex'
 export default{
     data () {
       return {
@@ -107,10 +104,17 @@ export default{
         events: false,
         wallets: false,
         tokens: false,
-        twitter: false
+        twitter: false,
       }
     },
+    computed: {
+        ...mapGetters(['sidebarOpen'])
+    },
     methods: {
+        ...mapMutations(['setSidebarOpen']),
+        toggleSidebar(){
+             this.setSidebarOpen(false)
+        },
         openEvents(){
             this.events = !this.events
             this.wallets = false
