@@ -14,8 +14,8 @@
       <h1>Мы не одни в своем убеждении, что токенизация активов - это будущее. </h1>
       <p>Добро пожаловать в Smart Tech Hub - платформу, где инновации и прогрессивные технологии встречаются с реальным бизнесом и криптовалютами. Мы предлагаем уникальные решения, которые помогают бизнесу и инвесторам использовать все преимущества цифровой экономики, сохраняя при этом привычные бизнес-процессы.</p>
       <div class="home__header__left__buttons">
-        <button>Присоединиться</button>
-        <button>Войти <span aria-hidden="true">→</span></button>
+        <button><a href="https://smart4u.tech/">Присоединиться</a></button>
+        <button><a href="https://smart4u.tech/">Войти <span aria-hidden="true">→</span></a></button>
       </div>
     </div>
     <div class="home__header__right">
